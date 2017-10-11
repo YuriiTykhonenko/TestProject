@@ -12,6 +12,8 @@ namespace TestConsole2
         {
             Console.WriteLine("Hello forever!!!");
             Console.WriteLine("end!!");
+            Console.WriteLine(TestString.GetSomeText(25));
+            Console.ReadKey();
         }
     }
 }
