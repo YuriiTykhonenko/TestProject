@@ -12,5 +12,10 @@ namespace WpfAppl.Lib
         {
             return a + b;
         }
+
+        public int MulInt(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
