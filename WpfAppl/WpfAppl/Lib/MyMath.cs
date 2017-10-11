@@ -22,5 +22,10 @@ namespace WpfAppl.Lib
         {
             return a / b;
         }
+         public int MinusInt(int a, int b)
+        {
+            return a - b;
+        }
+
     }
 }
