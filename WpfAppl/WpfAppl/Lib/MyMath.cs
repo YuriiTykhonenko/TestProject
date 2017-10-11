@@ -6,24 +6,28 @@ using System.Threading.Tasks;
 
 namespace WpfAppl.Lib
 {
-    public class MyMath
+    public class MyMathRenamed
     {
-        public int AddInt(int a, int b)
-        {
-            return a + b;
-        }
-
-        public int MulInt(int a, int b)
-        {
-            return a * b;
-        }
-        public int DivInt(int a, int b)
+        public float DivFloat(float a, float b)
         {
             return a / b;
         }
-        public int MinusInt(int a, int b)
+        public float MinusFloat(float a, float b)
         {
             return a - b;
+        }
+
+        public float AddFloat(float a, float b)
+        {
+            return a + b;
+        }
+        public float MulFloat(float a, float b)
+        {
+            return a * b;
+        }
+        public float Pow(float x, float y)
+        {
+            return (float)Math.Pow(x, y);
         }
 
     }
